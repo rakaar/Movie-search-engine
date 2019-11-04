@@ -1,0 +1,14 @@
+@import '../index.scss';
+
+@import '~bulma/sass/elements/box.sass';
+
+.box {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  padding-right: 4%;
+}
+
+.login {
+  color: white;
+}

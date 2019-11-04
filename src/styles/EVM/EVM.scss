@@ -1,0 +1,12 @@
+@import '../index.scss';
+
+@import '~bulma/sass/components/panel.sass';
+
+.panel-block {
+  padding: 2%;
+
+  // flex part
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
