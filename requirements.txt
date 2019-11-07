@@ -1,0 +1,8 @@
+nltk
+gensim
+json
+summa
+pypdf2
+googletrans
+os 
+json
