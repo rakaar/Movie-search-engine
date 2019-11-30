@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie search engine
+This is a search engine, whose data set is set of bollywood scripts. Based on the natural language query by the user, it should produce a result showing what movie it most probably will be.(In addition we are also planning to display probabilities of other movies too)
 
-## Available Scripts
+## It consists of three parts
+- React JS (for the frontend)
+- Flask which will contain NLP part(the server part)
 
-In the project directory, you can run:
+# Setting up the frontend
+- `npm install`
+- `npm start` 
+- Frontend will be runnning on `http://localhost:30000`
 
-### `npm start`
+# Contributing in KWOC
+- If you have any idea in your mind to implement or found any bug, feel free to open an issue.
+- Sending a PR to the master branch, correspondingly mention the issue you are solving in the PR message
+- If you are beginner(new to open source or github), pick up `good first issues` to familiarize with the open source world
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Some helpful links for beginners
+- [Writting good commit messages](https://chris.beams.io/posts/git-commit/)
+- [How to create a pull request for beginners](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+In case of any help,feel free to reach out in the [slack](https://app.slack.com/client/TPTBGGCQJ/CPULSRUSF). Here is the [invitation link](https://join.slack.com/t/movie-search-engine/shared_invite/enQtODIyMTc3NjUzOTM2LWY4NzU2N2ZlYTYzODI1OTllZjUxNGQ1ZjI3NDQxOTg2MGI0NmE0M2FkMTNhMTVhYzdkOWRhYzgyMTg3YjcwOGE)
